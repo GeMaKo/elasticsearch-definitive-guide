@@ -26,7 +26,7 @@ fields or ((("root object", "properties")))((("properties", "important settings"
    The datatype that the field contains, such as `string` or `date`
 
  `index`::      
-   Whether a field should be searchable as full text (`analyzed`), searchable as an exact value (`not_analyzed`), or not searchable at all (`no`)
+   Whether field values are indexed or not. It accepts `true` or `false`. Fields that are not indexed are not searchable at all.
 
  `analyzer`::    
    Which `analyzer` to use for a full-text field, both at index time and at search time
